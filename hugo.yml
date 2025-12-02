@@ -1,0 +1,109 @@
+baseURL: https://heuluck.dev/
+title: Lucky Blog
+theme: PaperMod
+languageCode: zh-Hans-CN
+enableRobotsTXT: true
+buildDrafts: false
+buildFuture: false
+buildExpired: false
+pygmentsUseClasses: true
+minify:
+  disableXML: true
+  minifyOutput: true
+params:
+  env: production
+  title: Lucky
+  description: Heuluck's personal blog
+  keywords:
+    - Blog
+    - Heuluck
+  author: Heuluck
+  DateFormat: 2006-01-02
+  defaultTheme: auto
+  disableThemeToggle: false
+  ShowReadingTime: true
+  ShowShareButtons: false
+  ShowPostNavLinks: true
+  ShowBreadCrumbs: true
+  ShowCodeCopyButtons: false
+  ShowWordCount: true
+  ShowRssButtonInSectionTermList: true
+  UseHugoToc: true
+  disableSpecial1stPost: false
+  disableScrollToTop: false
+  comments: false
+  hidemeta: false
+  hideSummary: false
+  showtoc: false
+  tocopen: false
+  assets:
+    favicon: /favicon/favicon.ico
+  label:
+    text: Lucky Blog
+    iconHeight: 35
+  profileMode:
+    enabled: false
+    title: Heuluck
+    subtitle: This is subtitle
+    imageUrl: <img location>
+    imageWidth: 120
+    imageHeight: 120
+    imageTitle: my image
+    buttons:
+      - name: Posts
+        url: posts
+      - name: Tags
+        url: tags
+  homeInfoParams:
+    Title: 早上好，中午好，晚上好 👋
+    Content: >
+      欢迎来到我的个人博客！
+  socialIcons:
+    - name: github
+      url: https://github.com/heuluck
+    - name: email
+      url: mailto:heuluck@outlook.com
+  cover:
+    hidden: true
+    hiddenInList: true
+    hiddenInSingle: true
+  fuseOpts:
+    isCaseSensitive: false
+    shouldSort: true
+    location: 0
+    distance: 1000
+    threshold: 0.4
+    minMatchCharLength: 0
+    limit: 10
+    keys:
+      - title
+      - permalink
+      - summary
+      - content
+menu:
+  main:
+    - identifier: categories
+      name: Categories
+      url: /categories/
+      weight: 10
+    - identifier: tags
+      name: Tags
+      url: /tags/
+      weight: 20
+    - identifier: friends
+      name: Friends
+      url: /friends/
+      weight: 30
+    - identifier: Hexo
+      name: Hexo Blog
+      url: https://heuluck.top/
+      weight: 40
+markup:
+  highlight:
+    noClasses: false
+languages:
+  zh:
+    languageCode: zh-Hans-CN
+    languageDirection: ltr
+    languageName: 中文
+    weight: 1
