@@ -95,7 +95,7 @@ menu:
       url: /friends/
       weight: 30
     - identifier: Hexo
-      name: Hexo Blog
+      name: My Hexo Blog
       url: https://heuluck.top/
       weight: 40
 markup:
