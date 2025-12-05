@@ -5,4 +5,4 @@ title = '你好，世界（Hugo版）'
 categories = ['随记']
 tags = ['Hugo']
 +++
-虽然之前用 Hexo 写过博客，但也想试试 Hugo。
+虽然重置之后打算用 Hexo 写博客（毕竟是熟悉的 Node 技术栈），但也想试试 Hugo。
