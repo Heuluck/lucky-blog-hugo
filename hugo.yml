@@ -37,7 +37,12 @@ params:
   showtoc: false
   tocopen: false
   assets:
-    favicon: /favicon/favicon.ico
+    favicon: "/favicon/favicon.ico"
+    favicon16x16: "/favicon/favicon-16x16.png"
+    favicon32x32: "/favicon/favicon-32x32.png"
+    favicon96x96: "/favicon/favicon-96x96.png"
+    apple_touch_icon: "/favicon/apple-touch-icon.png"
+    site_manifest: "/favicon/site.webmanifest"
   label:
     text: Lucky Blog
     iconHeight: 35
