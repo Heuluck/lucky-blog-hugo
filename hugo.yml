@@ -1,7 +1,7 @@
 baseURL: https://hugo.heuluck.dev/
 title: Lucky Blog
 theme: PaperMod
-languageCode: zh-Hans-CN
+locale: zh-Hans-CN
 enableRobotsTXT: true
 buildDrafts: false
 buildFuture: false
@@ -99,16 +99,16 @@ menu:
       name: Friends
       url: /friends/
       weight: 30
-    - identifier: Hexo
-      name: My Hexo Blog
-      url: https://heuluck.top/
+    - identifier: Astro
+      name: Blog Beta
+      url: https://heuluck.dev/
       weight: 40
 markup:
   highlight:
     noClasses: false
 languages:
   zh:
-    languageCode: zh-Hans-CN
-    languageDirection: ltr
-    languageName: 中文
+    locale: zh-Hans-CN
+    direction: ltr
+    label: 中文
     weight: 1
